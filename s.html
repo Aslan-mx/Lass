@@ -1,0 +1,58 @@
+<!--
+ * @Author: 九千岁
+ * @Github: https://github.com/Aslan-mx
+ * @Date: 2022-09-30 00:03:31
+ * @LastEditors: 李明轩
+ * @LastEditTime: 2022-09-30 01:56:18
+ * @Description: 
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS glowing icons</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+
+}
+.container{
+  width: 600px;
+  height: 300px;
+ 
+}
+
+.container{
+  
+color: rgb(140, 0, 119);
+
+margin: auto 30px;
+animation: animate 3s linear infinite;
+text-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff,
+0 0 200px #0072ff;
+}
+
+
+
+@keyframes animate {
+  from {
+    filter: hue-rotate(0deg);
+  }
+  to {
+    filter: hue-rotate(360deg);
+  }
+}
+ </style>
+</head>
+ 
+<body>
+  <div class="container">222222222222</div>
+</body>
+ 
+</html>
